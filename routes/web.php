@@ -23,14 +23,16 @@ Route::get('/second-buyer-no-eloquent', 'TestSolutionController@getSecondBuyerNo
 Route::get('/purchase-list-eloquent', 'TestSolutionController@getPurchaseListEloquent');
 Route::get('/purchase-list-no-eloquent', 'TestSolutionController@getPurchaseListNoEloquent');
 
-Route::get('/sort-js', 'TestSolutionController@getSortJs');
-Route::get('/foreach-js', 'TestSolutionController@getForeachJs');
-Route::get('/filter-js', 'TestSolutionController@getFilterJs');
-Route::get('/map-js', 'TestSolutionController@getMapJs');
-Route::get('/reduce-js', 'TestSolutionController@getReduceJs');
+Route::get('/sort-js', 'TestJsSolutionController@getSortJs');
+Route::get('/foreach-js', 'TestJsSolutionController@getForeachJs');
+Route::get('/filter-js', 'TestJsSolutionController@getFilterJs');
+Route::get('/map-js', 'TestJsSolutionController@getMapJs');
+Route::get('/reduce-js', 'TestJsSolutionController@getReduceJs');
+Route::get('/i-m-funny', 'TestJsSolutionController@getImFunny');
+Route::get('/animation', 'TestJsSolutionController@getAnimation');
+Route::get('/define-callback-js', 'TestJsSolutionController@getDefineCallbackJs');
 
-Route::get('/animation', 'TestSolutionController@getAnimation');
 
 
-Route::get('/record-transfer', 'TestSolutionController@getRecordTransfer');
-Route::get('/i-m-funny', 'TestSolutionController@getImFunny');
+Route::get('/record-transfer', 'TestRecordSolutionController@getRecordTransfer');
+

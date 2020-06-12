@@ -12,7 +12,6 @@
 <body>
    
     6a. 
-
     <P>
       Bangladesh has developed a lot in the sector of IT and software development industry. In last few decades there has been a significant improvement in this field and time has brought the recent outcome. It gains maturity with such improvement which was quite undesirable at a certain period. But not anymore it’s going to be ignored or avoided by its contribution in the national income. Day by day it is creating more scopes for employment along with playing a vital role in dispelling the unemployment problems of the young graduates.
  
@@ -26,8 +25,9 @@
     </P>
 
     6b.
-    Father -> Son(Father of his son) -> Son
-    Total three men. They caught 3 fishes. So 1 man = 1 fish.     
-
+    <p>
+      Father -> Son(Father of his son) -> Son.
+      Total three men. They caught 3 fishes. So 1 man = 1 fish.  
+    </p>
 </body>
 </html>
